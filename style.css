@@ -1,0 +1,222 @@
+body{
+    margin: 100px;
+    font-family: sans-serif;
+}
+
+
+/* -----------------Nav Bar -------------*/
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    margin-left: 400px;
+}
+.nav-list li{
+    margin-left: 90px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: gray;
+    font-weight: bold;
+}
+
+.nav-list a{
+    color: gray;
+    text-decoration: none;
+}
+.nav-list a:focus{
+    color: black;
+    text-decoration: underline black;
+}
+
+.nav-list a:hover{
+    color: black;
+    text-decoration: underline black;
+}
+
+.brand{
+    cursor: pointer;
+    list-style: none;
+    margin-left: -35px;
+}
+
+header{
+    border-bottom: 1px solid gray;
+    height: 50px;
+    margin-bottom: 60px;
+}
+
+/* SECTION 1 */
+
+.mainHead{
+    width: 55%;
+}
+
+.headings{
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.what{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.about-li {
+    color: gray;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+#section-one-img{
+    margin-top: -60px;
+}
+
+pre{
+    color: lightslategray;
+    border: none;
+    justify-content: center;
+    width: 1100px;
+}
+
+/* All centre headings */
+
+.main-headings{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Capabilities */
+
+.capabilities-h5{
+    margin-left: 30px;
+    text-align: center;
+    color: lightslategray;
+}
+
+#capabilities-div{
+    box-sizing: border-box;
+}
+
+/* Solutions */
+
+#solutions{
+    margin-top: 60px;
+}
+
+.solutions-h4{
+    margin-left: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+} 
+.solutions-h6{
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+.solutions-ul{
+    margin-left: 20px;
+}
+
+.solutions-img{
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.solutions-li {
+    margin-top: 10px;
+}
+
+/* Products */
+
+
+
+
+/* Leadership */
+
+#leadership {
+    /* background-color: #f0eded; */
+    height: 350px;
+    width: 100%;
+    margin: 0px;
+}
+
+#leadership h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.leadership-h4{
+    margin-left: 130px;
+    text-align: justify;
+}
+
+#leadership p{
+    margin-left: 130px;
+    text-align: justify;
+    font-size: smaller;
+}
+
+/* Advisors */
+
+#advisor {
+    /* background-color: #f0eded; */
+    height: 350px;
+    width: 100%;
+    margin: 0px;
+}
+
+#advisors h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.advisors-h4{
+    margin-left: 130px;
+    text-align: justify;
+}
+
+#advisors p{
+    margin-left: 130px;
+    text-align: justify;
+    font-size: smaller;
+}
+
+/*------------------ FOOTER -------------*/
+
+.address-one{
+    padding-top: 60px;
+    padding-left: 90px;
+    margin-right: 60px;
+}
+
+.searchbar{
+    width: 260px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px ;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.footer-nav{
+    display: flex;
+    margin-left: 55px;
+}
+.footer-nav li{
+    margin-left: 40px;
+    list-style: none;
+    justify-content: space-around;
+    font-size: small;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#copyright {
+    margin-left: 256px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: smaller;
+}
