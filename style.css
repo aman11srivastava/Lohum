@@ -27,6 +27,7 @@ body{
 .nav-list a:focus{
     color: black;
     text-decoration: underline black;
+    border-bottom-width: 30px;
 }
 
 .nav-list a:hover{
@@ -41,9 +42,11 @@ body{
 }
 
 header{
-    border-bottom: 1px solid gray;
+    /* border-bottom: 1px solid gray; */
     height: 50px;
     margin-bottom: 60px;
+    /* box-shadow: 0px 8px 3px lightgray; */
+    box-shadow: 0 8px 6px -6px gray;
 }
 
 /* SECTION 1 */
@@ -56,6 +59,7 @@ header{
     font-size: 40px;
     margin-bottom: 40px;
     font-weight: bold;
+    text-align: justify;
 }
 
 .what{
@@ -147,6 +151,7 @@ pre{
 .leadership-h4{
     margin-left: 130px;
     text-align: justify;
+    margin-top: -65px;
 }
 
 #leadership p{
@@ -172,12 +177,17 @@ pre{
 .advisors-h4{
     margin-left: 130px;
     text-align: justify;
+    margin-top: -65px;
 }
 
 #advisors p{
     margin-left: 130px;
     text-align: justify;
     font-size: smaller;
+}
+
+.leaders-advisors{
+    margin-left: 30px;
 }
 
 /*------------------ FOOTER -------------*/
@@ -189,7 +199,7 @@ pre{
 }
 
 .searchbar{
-    width: 260px;
+    width: 330px;
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 5px ;
