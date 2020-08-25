@@ -56,15 +56,17 @@ header{
 }
 
 .headings{
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 40px;
     font-weight: bold;
     text-align: justify;
+    margin-top: 30px;
 }
 
 .what{
-    font-size: 28px;
+    font-size: 25px;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 .about-li {
     color: gray;
@@ -129,7 +131,29 @@ pre{
     margin-top: 10px;
 }
 
-/* Products */
+/* --------------- Products -------------*/
+
+#card-styles{
+    border-radius: 20px; 
+    padding: 10px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+#alignment{
+    margin-left: 110px;
+    width: 200px;
+    background-color: #103269;
+    border: none;
+    font-weight: 600;
+    padding: 10px;
+    font-size: larger;
+}
+
+.list-styling{
+    padding-bottom: 10px;
+    color: #646965;
+    list-style-type: disc black;
+}
 
 
 
